@@ -1,8 +1,29 @@
 aid: xalts
 name: Xalts
-description: 'Xalts is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Xalts (operated by Tokuten Pte Ltd) is an Accel-backed fintech building an
+  AI agent platform for corporate treasury and finance teams — a copilot that
+  automates trade finance operations (guarantees, trade payments, documentary
+  credit and collections), liquidity management, and revenue operations.
+  Task-specific agents learn internal processes and policies and integrate
+  with ERPs, accounting systems, payment processors, and banks through the
+  company's Omni Connect Protocol, which provides multi-bank connectivity via
+  a single API. Xalts does not currently publish a public developer portal or
+  API documentation; its connectivity APIs are offered to enterprise
+  customers.
 url: https://raw.githubusercontent.com/api-evangelist/xalts/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/5ecxxuId1DZSRncE1cHloH4g.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Security
+- Fintech
+- Treasury
+- Trade Finance
+- AI Agents
+- Banking
+- Liquidity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://xalts.io/
+  url: https://www.xalts.io/
+- type: Support
+  url: https://www.xalts.io/contact-us
+- type: PrivacyPolicy
+  url: https://www.xalts.io/privacy-policy
+- type: TermsOfService
+  url: https://www.xalts.io/terms-conditions
+- type: DomainSecurity
+  url: security/xalts-domain-security.yml
+- type: WellKnown
+  url: well-known/xalts-well-known.yml
+- type: LLMsTxt
+  url: llms/xalts-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
