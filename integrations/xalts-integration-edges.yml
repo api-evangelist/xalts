@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/xalts/integrations
+- https://n8n.io/integrations/xalts/
+- https://composio.dev/toolkits/xalts
+- https://monid.ai/tools/xalts
+checked:
+- https://composio.dev/toolkits/xalts
+- https://monid.ai/tools/xalts
+- https://n8n.io/integrations/xalts/
+- https://zapier.com/apps/xalts/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
